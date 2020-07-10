@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70A1828C24B81A120099B2E5 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A1828B24B81A120099B2E5 /* Video.swift */; };
+		70A1828E24B81B520099B2E5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A1828D24B81B520099B2E5 /* Model.swift */; };
+		70A1829024B85C060099B2E5 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A1828F24B85C060099B2E5 /* ConstantsTemplate.swift */; };
 		70F1B95324B709A5002B1F1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1B95224B709A5002B1F1A /* AppDelegate.swift */; };
 		70F1B95524B709A5002B1F1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1B95424B709A5002B1F1A /* SceneDelegate.swift */; };
 		70F1B95724B709A5002B1F1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1B95624B709A5002B1F1A /* ViewController.swift */; };
 		70F1B95A24B709A5002B1F1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F1B95824B709A5002B1F1A /* Main.storyboard */; };
 		70F1B95C24B709A6002B1F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F1B95B24B709A6002B1F1A /* Assets.xcassets */; };
 		70F1B95F24B709A6002B1F1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F1B95D24B709A6002B1F1A /* LaunchScreen.storyboard */; };
+		70F1B96724B7243D002B1F1A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1B96624B7243D002B1F1A /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70A1828B24B81A120099B2E5 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		70A1828D24B81B520099B2E5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		70A1828F24B85C060099B2E5 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 		70F1B94F24B709A5002B1F1A /* YoutubeViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F1B95224B709A5002B1F1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70F1B95424B709A5002B1F1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		70F1B95B24B709A6002B1F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70F1B95E24B709A6002B1F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70F1B96024B709A6002B1F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70F1B96624B7243D002B1F1A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				70F1B95B24B709A6002B1F1A /* Assets.xcassets */,
 				70F1B95D24B709A6002B1F1A /* LaunchScreen.storyboard */,
 				70F1B96024B709A6002B1F1A /* Info.plist */,
+				70F1B96624B7243D002B1F1A /* Constants.swift */,
+				70A1828B24B81A120099B2E5 /* Video.swift */,
+				70A1828D24B81B520099B2E5 /* Model.swift */,
+				70A1828F24B85C060099B2E5 /* ConstantsTemplate.swift */,
 			);
 			path = YoutubeViews;
 			sourceTree = "<group>";
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70A1829024B85C060099B2E5 /* ConstantsTemplate.swift in Sources */,
 				70F1B95724B709A5002B1F1A /* ViewController.swift in Sources */,
 				70F1B95324B709A5002B1F1A /* AppDelegate.swift in Sources */,
 				70F1B95524B709A5002B1F1A /* SceneDelegate.swift in Sources */,
+				70A1828E24B81B520099B2E5 /* Model.swift in Sources */,
+				70F1B96724B7243D002B1F1A /* Constants.swift in Sources */,
+				70A1828C24B81A120099B2E5 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
